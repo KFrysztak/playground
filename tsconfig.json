@@ -7,7 +7,9 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "promises/*": ["./promises/src/*"]
+      "promises/*": ["./promises/src/*"],
+      "utils/*": ["./utils/src/*"],
+      "array/*": ["./array/src/*"]
     },
     "pretty": true,
     "target": "ESNext"

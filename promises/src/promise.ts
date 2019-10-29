@@ -1,4 +1,11 @@
 import {
+  delay,
+  isPromiseLike,
+  tryFn,
+  arrayFilledLength,
+} from '../../utils/src';
+
+import {
   Executor,
   Handler,
   OnFailHandler,
@@ -8,12 +15,6 @@ import {
 } from './interfaces';
 
 import { State } from './state';
-import {
-  delay,
-  isPromiseLike,
-  tryFn,
-  arrayFilledLength,
-} from './utils';
 
 export class Promize<T> implements PromizeLike<T> {
 

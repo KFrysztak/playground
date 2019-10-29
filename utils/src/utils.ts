@@ -1,4 +1,4 @@
-import { PromizeLike } from './interfaces';
+import { PromizeLike } from '../../promises/src/interfaces';
 
 export const delay = (fn: Function, delay = 0) => setTimeout(fn, delay);
 
